@@ -1,0 +1,287 @@
+body
+{
+    background-image: url('images/background.png');
+    background-repeat: repeat-x;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-family: Geneva, Arial, Helvetica, Sans-serif;;
+    font-size: 14px;
+    background-color: #C8E2E8;
+}
+
+#Frame
+{
+    margin: 0 auto;
+    width : 1048px;
+    background-image: url('images/frame_bg.png');
+    background-repeat: repeat-y;
+    margin-top: 0px;
+}
+
+#FrameBottom
+{
+    height : 9px;
+    margin: 0 auto;
+    width : 1048px;
+    background-image: url('images/frame_bottom_shadow.png');
+}
+
+#HeaderImage
+{
+    margin: 0 auto;
+    background-image: url('images/header_image.png');
+    width: 1024px;
+    height: 362px;
+    
+}
+
+#HeaderShadow
+{
+    margin: 0 auto;
+    /*background-image: url('images/head_shadow.png');*/
+    width: 1024px;
+    height: 18px;
+    
+}
+
+#MainMenu
+{
+    width: 1024px;
+    height : 50px;
+    margin: 0 auto;
+    position: relative;
+    top: 216px;
+	background-image: url("images/menu-bg.png");
+}
+
+#MainMenu a
+{
+    display: block;
+    text-align: center;
+    float: left;
+    width: 150px;
+    height: 25px;
+    line-height: 25px;
+    margin: 5px 5px 5px 5px;
+    font-family: Geneva, Arial, Helvetica, Sans-serif;;
+    color: gray;
+    font-size: 18px;
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+#MainMenu a:hover
+{
+    opacity: 1.0;
+    background-image: url("images/button_bg.png");
+}
+
+#BottomMenu
+{
+    width: 600px;
+    height : 30px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#BottomMenu a
+{
+    display: block;
+    text-align: center;
+    vertical-align: center;
+    float: left;
+    width: 100px;
+    height: 50px;
+    line-height: 20px;
+    margin: 5px 5px 5px 5px;
+    font-family: Geneva, Arial, Helvetica, Sans-serif;;
+    color: #2D4A18;
+    font-size: 14px;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+#BottomMenu a:hover
+{
+    background-color: #2D4A18;
+    color: white;
+}
+
+#Copyright
+{
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
+    color : #2D4A18;
+}
+
+#Copyright a
+{
+    color: gray;
+}
+
+#Copyright a:hover
+{
+    color: black;
+    text-decoration: underline;
+}
+
+#Bottom
+{
+    min-width: 100%;
+    min-height: 0px;
+    height: 100%;
+    display: block;
+}
+
+#Social
+{
+    position: relative;
+    left: 870px;
+    width : 160px;
+    height : 48px;
+    top : 5px;
+    
+}
+
+#Social a
+{
+    display: block;
+    width: 48px;
+    height: 48px;
+    float : left;
+    text-align: center;
+    line-height: 48px;
+    vertical-align: central;
+    opacity: 0.6; 
+}
+
+#Social a:hover
+{
+    opacity : 1.0;
+    background-image: url("images/rect-button_bg.png");
+    background-repeat: no-repeat;
+    background-size: 48px 48px;
+    background-position: center;
+}
+
+#Language
+{
+    position: relative;
+    left: 820px;
+    width : 210px;
+    height : 48px;
+    top : 5px;
+}
+
+#Language a
+{
+    display: block;
+    width: 48px;
+    height: 48px;
+    float : left;
+    text-align: center;
+    line-height: 48px;
+    vertical-align: central;
+    opacity: 0.6;
+}
+
+#Language a:hover
+{
+    opacity : 1.0;
+    background-image: url("images/rect-button_bg.png");
+    background-repeat: no-repeat;
+    background-size: 48px 48px;
+    background-position: center;
+}
+
+/*The part of the page content (text + images)*/
+#MainContent
+{
+    width: 980px;
+    margin: 10px 10px 10px 10px;
+    margin-left: 30px;
+    position: relative;
+    display: inline-block;
+    min-height: 300px;
+    overflow: auto;
+}
+/*The main part is divideed into two parts: left and right*/
+#Left
+{
+    width: 680px;
+    border-right: lightgray solid thin;
+    position: relative;
+    float: left;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+#Right
+{
+    width: 255px;
+    margin-left: 20px;
+    position: relative;
+    float: left;
+    display: inline-block;
+}
+
+/*The style of the articles*/
+/***********************************************************/
+.Article
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ArticleTitle
+{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    width : 99%;
+    background-image: url('images/title-bg.png');
+    background-repeat: repeat-y;
+    background-size: 100%;
+    color: white;
+    padding: 5px 5px 5px 5px;
+}
+
+.ArticleText
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ArticleFooter
+{
+    background-color: #C8E2E8;
+    padding: 5px 5px 5px 5px;
+    font-style: italic;
+}
+
+/*The style of the album*/
+/***********************************************************/
+.AlbumTitle
+{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    width : 99%;
+    background-image: url('images/albumtitle-bg.png');
+    background-repeat: repeat-y;
+    background-size: 100%;
+    color: white;
+    padding: 5px 5px 5px 5px;
+}
+.FormTable
+{
+    margin: 0 auto;
+    width: 500px;
+}
+
+.FormTableCol1
+{
+    text-align: right;
+    font-weight: bold;
+}

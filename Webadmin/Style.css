@@ -1,0 +1,237 @@
+body
+{
+    background-color: #E0F9D5;
+    font-family: "Arial";
+    margin: 0px 0px 0px 0px;
+}
+
+/*div
+{
+    
+    font-family: "Arial";
+    margin: 10px 10px 10px 10px;
+}*/
+
+#Title
+{
+    background-color: #4A7748;
+    color: white;
+    font-size: x-large;
+    padding: 5px 5px 5px 5px;
+    font-weight: bold;
+    
+}
+
+.SubTitle
+{
+    background-color: lightgray;
+    color: black;
+    font-size: medium;
+    border: none;
+    margin: auto;
+    font-weight: bold;
+    padding: 5px 5px 5px 5px;
+    text-transform: uppercase; 
+}
+
+#Content
+{
+    width: 1100px;
+    background-color: white;
+    border-style: solid;
+    border-color:  black;
+    border-width: thin;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+#PageContent
+{
+    border: none;    
+}
+
+#Foot
+{
+    border: none;
+    font-size: small;
+    text-align: center;
+}
+
+#Menu
+{
+    background-color: #80D27B;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#Menu a
+{
+    color: green;
+}
+
+
+#Menu a:hover
+{
+    color: white;
+    background-color: darkgreen;
+}
+
+.MenuTable
+{
+    width: 80%;
+    margin: 5px 5px 5px 5px;
+}
+
+.FormTableCol1
+{
+    text-align: right;
+    vertical-align: text-top;
+    padding-top: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+    width: auto;
+}
+
+.Form
+{
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: none;
+}
+
+.AdminTableHead
+{
+    text-align: center;
+    background-color: lightgrey;
+    font-weight: bold;
+    border: solid;
+    border-width: thin;
+    border-color: lightgrey;
+}
+
+.AdminTableColumn
+{
+    border: solid;
+    border-width: thin;
+    border-color: lightgrey;
+    word-wrap: break-word;
+    max-width: 150px;
+}
+
+.AdminTable
+{
+    border: solid;
+    border-width: thin;
+    border-color: lightgrey;
+    width: 90%;
+    margin: 0 auto;
+    word-wrap: break-word;
+}
+
+.AdminTable tr:hover
+{
+    background: #F7F7F7;
+}
+
+.Article
+{
+    background-color: lightgrey;
+    margin-top : 10px;
+    margin-bottom: 10px;
+    width : 700px;
+    margin : 0 auto;
+}
+
+.ArticleTitle
+{
+    border: none;
+    background-color: darkgray;
+    font-size: x-large;
+    color: white;
+    font-weight: bolder;
+    padding : 5px 5px 5px 5px;
+}
+
+.ArticleText
+{
+    padding : 5px 5px 5px 5px;
+    border : none;
+}
+
+.ArticleFooter
+{
+    background: none;
+    border: none;
+}
+
+.Album
+{
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.AlbumTitle
+{
+    padding: 5px 5px 5px 5px;
+    background-color: darkgrey;
+    color: white;
+    font-weight: bold;
+}
+
+.AlbumContent
+{
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 700px;
+}
+
+#Languages
+{
+    height: 38px;
+}
+
+#Languages a
+{
+    display: block;
+    width : 32px;
+    height : 32px;
+    margin: 3px 3px 3px 3px;
+    float: left;
+    position: relative;
+    line-height: 32px;
+    vertical-align: central;
+    text-decoration: none;
+    color: darkgreen;
+    text-align: center;
+    font-weight: bold;
+}
+
+#Languages a:hover
+{
+    color: white;
+    background-color: darkgreen;
+}
+
+.Dim
+{
+			color: white;
+            font-size: xx-large;
+            text-align: center;
+            vertical-align: central;
+            margin: 0px 0px 0px 0px;
+            height:100%;
+			width:100%;
+			position:fixed;
+			left:0;
+			top:0;
+			z-index:1 !important;
+			background-color:black;
+            filter: alpha(opacity=75); /* internet explorer */
+            -khtml-opacity: 0.75;      /* khtml, old safari */
+            -moz-opacity: 0.75;       /* mozilla, netscape */
+            opacity: 0.75;           /* fx, safari, opera */
+}
