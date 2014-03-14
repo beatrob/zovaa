@@ -30,7 +30,7 @@ body
 {
     margin: 0 auto;
     background-image: url('images/header_image.png');
-    width: 1023px;
+    width: 1024px;
     height: 362px;
     
 }
@@ -46,21 +46,24 @@ body
 
 #MainMenu
 {
-    width: 1023px;
+    width: 994px;
     height : 50px;
     margin: 0 auto;
     position: relative;
     top: 216px;
 	background-image: url("images/menu-bg.png");
+	padding-left: 30px;
 }
 
 #MainMenu a
 {
-    display: block;
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 13px;
     text-align: center;
     float: left;
     width: 150px;
-    height: 50px;
+    height: 37px;
     line-height: 25px;
     margin: 0px 5px 5px 5px;
     font-family: Geneva, Arial, Helvetica, Sans-serif;;
@@ -91,11 +94,11 @@ body
     vertical-align: center;
     float: left;
     width: 100px;
-    height: 50px;
+    height: 20px;
     line-height: 20px;
     margin: 5px 5px 5px 5px;
     font-family: Geneva, Arial, Helvetica, Sans-serif;;
-    color: #2D4A18;
+    color: gray;
     font-size: 14px;
     opacity: 0.8;
     text-decoration: none;
@@ -103,7 +106,7 @@ body
 
 #BottomMenu a:hover
 {
-    background-color: #2D4A18;
+    background-color: gray;
     color: white;
 }
 
@@ -168,7 +171,7 @@ body
 #Language
 {
     position: relative;
-    left: 820px;
+    left: 868px;
     width : 210px;
     height : 48px;
     top : 5px;

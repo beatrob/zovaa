@@ -16,7 +16,7 @@ class MainMenu
         $this->lang = $lang;
         switch($lang)
         {
-            case "HU" : $this->linkNames = array("index.php"=>"Főoldal", "apiary.php"=>"Méhészetünk", "galery.php"=>"Galéria", "offers.php"=>"Kínálatunk", "contact.php"=>"Elérhetőség" ); break;
+            case "HU" : $this->linkNames = array("index.php"=>"Főoldal", "apiary.php"=>"Technika", "galery.php"=>"Galéria", "offers.php"=>"Referencia", "contact.php"=>"Elérhetőség" ); break;
             case "EN" : $this->linkNames = array("index.php"=>"Home", "apiary.php"=>"Apiary", "galery.php"=>"Galery", "offers.php"=>"Our products", "contact.php"=>"Contact us" ); break;
             case "SK" : $this->linkNames = array("index.php"=>"Domov", "apiary.php"=>"Včelárstvo", "galery.php"=>"Galeria", "offers.php"=>"Naša ponuka", "contact.php"=>"Kontakt" ); break;
             case "DE" : $this->linkNames = array("index.php"=>"Zuhause", "apiary.php"=>"Imkerei", "galery.php"=>"Galerie", "offers.php"=>"Angebot", "contact.php"=>"Kontakt" ); break;

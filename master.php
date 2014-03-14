@@ -64,7 +64,7 @@ class Master
             require_once($this->MetaTagFile);
         }       
         echo '<link rel="stylesheet" type="text/css" href="Style.css" />
-                        <link rel="shortcut icon" href="images/favicon.ico" />
+                        <link rel="shortcut icon" href="images/favicon.ico?v=2" />
                         <link href="lightbox/css/lightbox.css" rel="stylesheet" />
                         <script src="lightbox/js/jquery-1.7.2.min.js"></script>
                         <script src="lightbox/js/lightbox.js"></script>
