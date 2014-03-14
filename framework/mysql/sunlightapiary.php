@@ -6,9 +6,9 @@
  */
 
 $hostname = "localhost";
-$database = "basic";
-$username= "sunlightapiary";
-$password = "sunlightapiary";
+$database = "base";
+$username= "zovaa";
+$password = "zovaa";
 
 $con = mysql_pconnect($hostname, $username, $password);
 mysql_set_charset('utf8',$con);
