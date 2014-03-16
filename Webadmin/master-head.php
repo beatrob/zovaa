@@ -50,7 +50,7 @@ if(isset($_GET["update"]))
     <div id="Title">
         <table style="width: 100%;">
             <tr>
-                <td><a href="http://localhost/SunlightApiary/index.php"><< sunlightapuary.eu</a></td>
+                <td><a href="../"><< zovaa.com</a></td>
                 <td>Webadministrator</td>
                 <td style="text-align: right;"><a href="../framework/formhandler.php?logoff=1">log off</a></td>
             </tr>

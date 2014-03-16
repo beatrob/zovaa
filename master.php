@@ -95,7 +95,7 @@ class Master
         echo $this->BottomMenu.'</div>
             <div id="FrameBottom" ><br /></div>
             <div id="Copyright">
-                <p>Sunlight Apiary<br/>© 2013</p>
+                <p>ZOVAA<br/>© 2014</p>
                 <p><a href="login.php">webadmin</a></p>
             </div>
             <div id="Bottom"> </div>

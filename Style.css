@@ -81,7 +81,7 @@ body
 
 #BottomMenu
 {
-    width: 600px;
+    width: 700px;
     height : 30px;
     margin: 0 auto;
     position: relative;
@@ -115,7 +115,7 @@ body
     width: 150px;
     margin: 0 auto;
     text-align: center;
-    color : #2D4A18;
+    color : gray;
 }
 
 #Copyright a

@@ -10,11 +10,11 @@ class LanguageHandler
 {
     public static function GetLanguage()
     {
-        $default = "DE";
+        $default = "SK";
         if(isset($_GET['lang']))
         {
             $lang=$_GET['lang'];
-            if($lang=="DE" || $lang=="HU" || $lang=="SK" || $lang=="EN")
+            if($lang=="HU" || $lang=="SK" || $lang=="EN")
             {
                 $_SESSION["LANG"] = $lang;
                 return $lang;
@@ -43,6 +43,7 @@ class LanguageHandler
     
     public function drawLanguageLinks()
     {
+        $p_name = "";
         if(isset($_GET['p_name']))
         {
             $p_name="p_name=".$_GET["p_name"]."&";

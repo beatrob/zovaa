@@ -12,12 +12,12 @@
 <html>
   <head>
     <meta charset="UTF-8"/>
-    <title>SunlightApiary - Webadmin</title>
+    <title>ZOVAA - Webadmin</title>
     <link rel="stylesheet" type="text/css" href="Style.css" />
   </head>
   <body>
     <div id="Content">
-    <div id="Title">Sunlight Apiary - Webadministrator</div>
+    <div id="Title">ZOVAA - Webadministrator</div>
     <div id="Menu"><?php include("menu.php");?></div>
     <div id="PageContent">
         
@@ -25,7 +25,7 @@
         
         
     </div>
-    <div id="Foot">Sunlight Apiary © 2013</div>  
+    <div id="Foot">ZOVAA ï¿½ 2013</div>  
   </div>
   </body>
 </html>

@@ -23,7 +23,7 @@ class MysqlSelect extends MysqlCommand
             $mysqlQueryColumms = substr($mysqlQueryColumms, 0, strlen($mysqlQueryColumms) - 2);
         }
         
-        $mysqlQueryCondition; # condition array
+        $mysqlQueryCondition = ""; # condition array
         if(isset($condition_string))
         {
             $mysqlQueryCondition = " WHERE ".$condition_string." ";

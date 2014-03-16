@@ -1,6 +1,6 @@
 body
 {
-    background-color: #E0F9D5;
+    background-color: #EEEEEE;
     font-family: "Arial";
     margin: 0px 0px 0px 0px;
 }
@@ -14,7 +14,7 @@ body
 
 #Title
 {
-    background-color: #4A7748;
+    background-color: #777777;
     color: white;
     font-size: x-large;
     padding: 5px 5px 5px 5px;
@@ -59,21 +59,21 @@ body
 
 #Menu
 {
-    background-color: #80D27B;
+    background-color: #EEEEEE;
     font-size: medium;
     font-weight: bold;
 }
 
 #Menu a
 {
-    color: green;
+    color: blue;
 }
 
 
 #Menu a:hover
 {
     color: white;
-    background-color: darkgreen;
+    background-color: blue;
 }
 
 .MenuTable

@@ -43,7 +43,7 @@ class AlbumReader
                     $image["URL"] = Settings::ReplaceMagicStrings($image["URL"]);
                     $image["THUMB_URL"] = Settings::ReplaceMagicStrings($image["THUMB_URL"]);
                     $img;
-                    $image_width;
+                    $image_width = "";
                     if($album["GALERY"] == "1") //handle galery setup
                     {
                         $thumb_url;
