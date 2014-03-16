@@ -71,12 +71,23 @@ body
     font-size: 18px;
     opacity: 0.3;
     text-decoration: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
 }
 
 #MainMenu a:hover
 {
     opacity: 1.0;
     background-color: white;
+    
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #DDDDDD;
+    
+    border-right-width: 1px;
+	border-right-style: solid;
+    border-right-color: #DDDDDD;
 }
 
 #BottomMenu
