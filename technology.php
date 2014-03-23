@@ -6,7 +6,8 @@
  */
 
 require_once("master.php");
-$master = new Master('meta/'.constant("LANG").'/offers.meta');
+$master = new Master('meta/'.constant("LANG").'/technology.meta');
+$master->headerDivName = "TechnologyHeaderImage";
 $master->DrawHeader();
 ?>
 <div id="MainContent">

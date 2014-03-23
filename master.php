@@ -26,6 +26,7 @@ class Master
     private $MaxImageWidth;
     private $MetaTagFile;
     private $WeightManager;
+    public $headerDivName;
     
     public function __construct($metaTagFile, $MaxImageWidth=null)
     {
@@ -38,6 +39,7 @@ class Master
         $this->MetaTagFile = $metaTagFile;
         $parts = Explode('/', $this->CurrentFile);
         $this->CurrentFile = $parts[count($parts) - 1];
+        $this->headerDivName = "HeaderImage";
         if(isset($this->MaxImageWidth))
         {
             $this->WeightManager = new WeightManager($this->CurrentFile, constant("LANG"), $this->MaxImageWidth);
@@ -84,7 +86,7 @@ class Master
                     </script>';
                //-----------------------------------
         echo '<div id="Frame">
-                        <div id="HeaderImage">'.$this->LanguageFlags.$this->SocialMenu.$this->MainMenu.'</div>
+                        <div id="'.$this->headerDivName.'">'.$this->LanguageFlags.$this->SocialMenu.$this->MainMenu.'</div>
                         <div id="HeaderShadow"></div>
             ';
     }

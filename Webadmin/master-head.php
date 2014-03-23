@@ -39,7 +39,7 @@ if(isset($_GET["update"]))
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>SunlightApiary - Webadmin</title>
+    <title>ZOVAA - Webadmin</title>
     <link rel="stylesheet" type="text/css" href="Style.css" />
     <link href="css/lightbox.css" rel="stylesheet" />
   </head>

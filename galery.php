@@ -7,6 +7,7 @@
 
 require_once("master.php");
 $master = new Master('meta/'.constant("LANG").'/galery.meta');
+$master->headerDivName = "GaleryHeaderImage";
 $master->DrawHeader();
 ?>
 <div id="MainContent">

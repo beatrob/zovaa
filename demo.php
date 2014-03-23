@@ -6,7 +6,8 @@
  */
 
 require_once("master.php");
-$master = new Master('meta/'.constant("LANG").'/apiary.meta');
+$master = new Master('meta/'.constant("LANG").'/demo.meta');
+$master->headerDivName = "DemoHeaderImage";
 $master->DrawHeader();
 ?>
 <div id="MainContent">

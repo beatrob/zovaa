@@ -6,8 +6,8 @@
  */
 
 require_once("master.php");
-$master = new Master('meta/'.constant("LANG").'/contact.meta');
-$master->headerDivName = "ContactHeaderImage";
+$master = new Master('meta/'.constant("LANG").'/references.meta');
+$master->headerDivName = "ReferencesHeaderImage";
 $master->DrawHeader();
 ?>
 <div id="MainContent">

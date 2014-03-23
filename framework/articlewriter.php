@@ -85,7 +85,6 @@ class ArticleWriter extends Form
         $this->pages = new Select("PAGE_ID");
         $this->types = new Select("TYPE_ID");
         $this->languages = new Select("LANG_ID");
-        $this->types->selected = $type_id;
         $this->articleId = new Input("ID");
         $this->articleId->type = "hidden";
         $this->text->cols = "60";
